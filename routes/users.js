@@ -209,7 +209,7 @@ router.post('/forgot', function(req, res, next) {
         service: 'Gmail', 
         auth: {
           user: '2016ucp1470@mnit.ac.in',
-          pass: '9431498459gbm',
+          pass: 'YOUR_PASSWORD',
           //host: 'smtp.gmail.com'
         }
       });
@@ -275,7 +275,7 @@ router.post('/reset/:token', function(req, res) {
         service: 'Gmail', 
         auth: {
           user: '2016ucp1470@mnit.ac.in',
-          pass: '9431498459gbm'
+          pass: 'YOUR_PASSWORD'
         }
       });
       var mailOptions = {
